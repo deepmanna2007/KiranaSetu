@@ -66,24 +66,28 @@ A Kirana owner will eagerly pay **₹299 – ₹499/month ($3.50 – $6 USD)** o
 
 ## 💻 Code
 
+**👉 GitHub Repository: [https://github.com/deepmanna2007/KiranaSetu](https://github.com/deepmanna2007/KiranaSetu)**
+
 The project is structured with modern, lightweight, modular JavaScript and custom CSS:
 
 ```
 ├── README.md                  # Comprehensive project documentation
 ├── SUBMISSION.md              # Official DEV challenge submission entry
+├── .env.example               # Environment variable reference (no secrets)
 ├── index.html                 # SEO optimized HTML5 entry shell
 ├── package.json               # Vite + qrcode + canvas-confetti
 └── src/
     ├── main.js                # App coordinator, role switcher & theme controller
+    ├── ai.js                  # Gemini Flash AI engine (Smart Parchi + Khata Reminder)
     ├── pos.js                 # Lightning billing POS, cart math, UPI QR & invoices
     ├── customerPortal.js      # Customer pre-order store, slot picker & live tracking
     ├── bookings.js            # Fulfillment hub for advance pickups & home delivery
     ├── inventory.js           # Real-time stock radar, batch adjusters & mandi reorder
-    ├── khata.js               # Customer Udhar ledger & WhatsApp payment reminder
-    ├── analytics.js           # Revenue metrics, payment split & store GST profile
+    ├── khata.js               # Customer Udhar ledger & AI WhatsApp payment reminder
+    ├── analytics.js           # Revenue metrics, payment split & store GST/AI settings
     ├── db.js                  # Persistent store seeded with authentic Indian FMCG items
     ├── sound.js               # Web Audio API barcode beeps & Hindi UPI soundbox chimes
-    └── style.css              # Custom responsive CSS design system + print media styles
+    └── style.css              # Custom responsive CSS design system + AI modal styles
 ```
 
 ### Key Technical Implementations
